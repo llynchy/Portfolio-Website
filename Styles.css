@@ -1,0 +1,638 @@
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather', cursive;
+  colour: #000;
+  font-size: 1.8rem;
+}
+
+body, html{
+  width: 100%
+}
+body, html{
+  height: 95rem
+}
+ h0{
+  font-family: 'Merriweather', cursive;
+  /*color: #30D5C8;*/
+  color: #146355;
+  font-size: 65px;
+  margin: 20px;
+}
+p{
+ font-family: 'Roboto', cursive;
+ color: #146355;
+ font-size: 24px;
+}
+a{
+ font-family: 'Merriweather', cursive;
+ color: #146355;
+ font-size: 20px;
+}
+
+h9{
+ font-family: 'Merriweather', cursive;
+ color: #ffffff;
+ font-size: 20px;
+}
+
+headerhover:hover {
+  color: #d5303d;
+}
+
+.line-1{
+  position: fixed;
+  top: 40%
+  left: -1000px;
+  white-space: nowrap;
+}
+
+.line-2{
+  position: fixed;
+  top: 45%
+  right: -1000px;
+  white-space: nowrap;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+.imagetext {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.imagetext img {vertical-align: middle;}
+
+.imagetext .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/*
+/* Larger than phablet
+@media (min-width: 550px) {
+  h1 { font-size: 5.0rem; }
+  h2 { font-size: 4.2rem; }
+  h3 { font-size: 3.6rem; }
+  h4 { font-size: 3.0rem; }
+  h5 { font-size: 2.4rem; }
+  h6 { font-size: 1.5rem; }
+}
+
+section.intro {
+font-family: 'Merriweather';
+position: relative;
+height: 100vh;
+width: 100%;
+background: #FFFFFF;
+/*
+background: -moz-radial-gradient(center, ellipse cover, #FFFFFF 1%, #FFFFFF 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#FFFFFF), color-stop(100%,#FFFFFF));
+*/
+/* background: -webkit-radial-gradient(center, ellipse cover, #f6f6f6 1%,#d3d3d3 100%);
+background: -o-radial-gradient(center, ellipse cover, #FFFFFF 1%,#FFFFFF 100%);
+background: -ms-radial-gradient(center, ellipse cover, #FFFFFF 1%,##FFFFFF 100%);
+/* background: radial-gradient(ellipse at center, #f6f6f6 1%,#d3d3d3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FFFFFF',GradientType=1 );
+overflow: hidden;
+z-index: 1;
+}
+*/
+
+/********************************************************************************************************************************
+                                            Hexagon Intro Blocks
+********************************************************************************************************************************/
+.intro-block {
+position: relative;
+display: flex;
+align-items: center;
+height: 100%;
+/*
+box-shadow: inset 0px 0px 64px 0px rgba(50,50,50,0.75);
+*/
+}
+/*
+.hex-bg-big-text {
+position: absolute;
+z-index: -1;
+height: 100%;
+width: 100%;
+}
+*/
+
+.centerfold-wrap {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+flex: 1;
+}
+
+/*
+.hoverblock {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+*/
+
+.hover-notify {
+position: absolute;
+bottom: -80px;
+left: 0;
+width: 100%;
+text-align: center;
+font-size: 50px;
+}
+
+/*
+.code-display {
+position: relative;
+color: #f6f6f6;
+width: 600px;
+height: 260px;
+}
+*/
+
+/*
+.code-display::before {
+content: "Expertise";
+position: absolute;
+top: -70px;
+left: 0;
+font-size: 3.0rem;
+color: #333;
+}
+*/
+
+.code-description * {
+display: none;
+}
+
+/*
+.code-description > div {
+padding: 0px 40px;
+font-size: 26px;
+border-left: 2px solid #DDDDDD;
+}
+
+
+.desc-active {
+display: block;
+/*height: 100%;
+position: relative;
+}
+
+
+.desc-active > p {
+display: block;
+margin: 0;
+}
+
+.desc-active > p > span {
+display: inline-block;
+font-weight: bold;
+width: 125px;
+}
+
+p.code-title {
+position: relative;
+font-size: 6rem;
+}
+
+.desc-active::after {
+position: absolute;
+height: 100%;
+width: 100%;
+top: 0;
+left: 0;
+content: "";
+opacity: .2;
+z-index: -1;
+}
+
+.hex-master-wrap {
+position: relative;
+min-width: 665px;
+height: 800px
+}
+*/
+
+
+
+.intro-block .grid-1,
+.intro-block .grid-2,
+.intro-block .grid-3 {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 75%;
+margin: 0 auto;
+margin-bottom: 50px;
+}
+
+.hex-wrap {
+position: relative;
+width: 350px;
+height: 200px;
+margin: 0 2em 0 0;
+border-top-left-radius: 100%;
+border-top-right-radius: 100%;
+border-bottom-left-radius: 100%;
+border-bottom-right-radius: 100%;
+border: 0px solid;
+transform: scale(1.1);
+}
+
+.hex-wrap .label {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+width: 100%;
+height: 100%;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 3;
+}
+/* */
+
+.hex-wrap .label svg, .hex-wrap .label img {
+height: 100%;
+width: 250px;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+
+
+.hexagon {
+width: 300px;
+height: 150px;
+margin: 15px 0 0 -75px;
+overflow: hidden;
+visibility: hidden;
+-webkit-transform: rotate(120deg);
+-moz-transform: rotate(120deg);
+-ms-transform: rotate(120deg);
+-o-transform: rotate(120deg);
+transform: rotate(90deg);
+cursor: pointer;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+/*
+
+.hex-inner-1 {
+overflow: hidden;
+width: 100%;
+height: 100%;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+-webkit-transform: rotate(-60deg);
+-moz-transform: rotate(-60deg);
+-ms-transform: rotate(-60deg);
+-o-transform: rotate(-60deg);
+transform: rotate(-60deg);
+}
+
+
+
+
+
+
+
+
+
+.hex-inner-2::before, .hex-inner-2::after {
+position: absolute;
+background-repeat: no-repeat;
+background-position: 50%;
+background-size: contain;
+top: 0;
+left: 0;
+height: 110%;
+width: 110%;
+content: "";
+-webkit-transform: rotate(30deg);
+transform: rotate(30deg);
+}
+*/
+
+/**********************************************************************************
+                                Hex Hover Area
+**********************************************************************************/
+.hex-init {
+position: absolute;
+top: 46px;
+left: 0px;
+height: 46%;
+width: 100%;
+z-index: 9;
+transform: rotate(-60deg);
+cursor: pointer;
+}
+
+.hex-init::after {
+width: 100%;
+height: 100%;
+display: block;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+content: "";
+transform: rotate(-60deg);
+}
+
+.hex-init::before {
+width: 100%;
+height: 100%;
+display: block;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+content: "";
+transform: rotate(60deg);
+}
+
+
+
+
+
+
+
+
+.ha:hover {
+    opacity: 0.7;
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 100px;
+  width: 50px;
+  /* height: 60px; */
+  /* text-align: center; */
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/**********************************************************************************
+GRID AREA STUFF
+**********************************************************************************/
+
+
+/* This CSS is based on SIMPLE GRID by ZACH COLE 2016 */
+
+/* RESET any default browser styling */
+/* you won't need to change anything here */
+
+
+
+/* we want images to be 100% width of the column they are in within the grid */
+/* you should not need to edit this */
+img{
+  width: 100%;
+  margin: 18px 0 18px 0;
+}
+
+/* Paragraph FONT STYLES */
+/* edit these to reflect how you would like you copy text to appear */
+
+* {
+  font-family: 'Merriweather', sans-serif;
+  color: #333447;
+}
+
+/* HEADING FONT STYLES */
+/* edit these to reflect how you would like you Header text to appear */
+
+
+
+
+/*
+h3 {
+  font-size: 1.375rem;
+  font-family: 'Merriweather', sans-serif;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+p {
+  font-size: .85rem;
+  margin: 18px 0 18px 0;
+}
+
+/* POSITIONING */
+/* add these classes to position an element */
+/* eg: <h1 class="center">A centered title</h1> */
+
+
+
+
+/* ==== GRID SYSTEM ==== */
+/* don't need to edit anything from here down */
+/* this sets up the responsive grid for you which you can use in your html */
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  width: 96%;
+}
+
+.col-1-sm {
+  width: 4.33%;
+}
+
+.col-2-sm {
+  width: 12.66%;
+}
+
+.col-3-sm {
+  width: 21%;
+}
+
+.col-4-sm {
+  width: 29.33%;
+}
+
+.col-5-sm {
+  width: 37.66%;
+}
+
+.col-6-sm {
+  width: 46%;
+}
+
+.col-7-sm {
+  width: 54.33%;
+}
+
+.col-8-sm {
+  width: 62.66%;
+}
+
+.col-9-sm {
+  width: 71%;
+}
+
+.col-10-sm {
+  width: 79.33%;
+}
+
+.col-11-sm {
+  width: 87.66%;
+}
+
+.col-12-sm {
+  width: 96%;
+}
+
+
+
+  .col-1 {
+    width: 4.33%;
+  }
+
+  .col-2 {
+    width: 12.66%;
+  }
+
+  .col-3 {
+    width: 21%;
+  }
+
+  .col-4 {
+    width: 29.33%;
+  }
+
+  .col-5 {
+    width: 37.66%;
+  }
+
+  .col-6 {
+    width: 46%;
+  }
+
+  .col-7 {
+    width: 54.33%;
+  }
+
+  .col-8 {
+    width: 62.66%;
+  }
+
+  .col-9 {
+    width: 71%;
+  }
+
+  .col-10 {
+    width: 79.33%;
+  }
+
+  .col-11 {
+    width: 87.66%;
+  }
+
+  .col-12 {
+    width: 96%;
+  }
+
+  .hidden-sm {
+    display: block;
+  }
+}
+
+
+
+  .container {
+    width: 75%;
+    max-width: 60rem;
+  }
+}
